@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online fruit market</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <!--navbar section-->
+    
+    <section class="bg-[#F85559] max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 rounded-full">
+        <div class=" navbar bg-[#F85559] flex  ">
+            <div class="flex-1">
+                <label tabindex="0" class="btn btn-ghost ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="lg:hidden h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                 
+                <account dropdown class="hidden  sm:block sm:ml-6 ">
+              <a class="text-base-100 btn btn-ghost normal-case text-sm">Home</a>
+             <a class="text-base-100 btn btn-ghost normal-case text-sm">About us</a>
+             <a class="text-base-100 btn btn-ghost normal-case text-sm">Shop</a>
+             <a class="text-base-100 btn btn-ghost normal-case text-sm">About us</a>
+            </label>
+            </div>
+        </account>
+
+           <div class="flex ">
+                <label tabindex="0" class="btn btn-ghost btn-circle avatar flex flex-1 ">
+                    <div class="w-10 ">
+                      <img src="./images/logo.png" />
+                    </div>
+                  </label> 
+                  <div>
+                    <p class="text-2xl font-extrabold">Fruit Burst</p>
+                  </div>
+                  </div>
+              <div class=" form-control flex-1 items-end">
+                <input type="text" placeholder="Search" class="input input-bordered w-20 md:w-auto rounded-full" />
+              </div>
+              <div class="dropdown dropdown-end">
+              </div>
+            </div>
+        </div>
+
+    </section>
+        
+</body>
+</html>
