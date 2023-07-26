@@ -29,6 +29,111 @@
         font-family: 'Lato', sans-serif;
     }
 </style>
+
+<section>
+<!-- for modal1  -->
+<input type="checkbox" id="my_modal_6" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box">
+    <div class="mx-auto"><img src="./images/fruit6.png"></div>
+    <h2 class="text-2xl font-bold text-center ">Apple</h2>
+    <p class="py-4 text-center">Buy fresh,authentic fruits and become healthy</p>
+    <!--rating-->
+    <div class="rating text-center">
+      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    </div>
+
+    <div class="flex gap-4 ">
+    <div class="modal-action ">
+      <label for="my_modal_6" class="btn bg-red-300 hover:bg-red-600">Close!</label>
+    </div>
+    <div class="modal-action">
+      <label for="my_modal_6" class="btn btn bg-red-300 hover:bg-red-600">Buy Now</label>
+    </div>
+    </div>
+  </div>
+</div>
+<!--for modal 2-->
+<input type="checkbox" id="my_modal_7" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box">
+    <div class="mx-auto"><img src="./images/fruit7.png"></div>
+    <h2 class="text-2xl font-bold text-center">Orange</h2>
+    <p class="py-4 text-center">Buy fresh,authentic fruits and become healthy</p>
+    <!--rating-->
+    <div class="rating text-center">
+      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked />
+      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+    </div>
+    <div class="flex gap-4">
+    <div class="modal-action ">
+      <label for="my_modal_7" class="btn bg-red-300 hover:bg-red-600">Close!</label>
+    </div>
+    <div class="modal-action">
+      <label for="my_modal_7" class="btn btn bg-red-300 hover:bg-red-600">Buy Now</label>
+    </div>
+    </div>
+  </div>
+</div>
+<!--for modal 3-->
+<input type="checkbox" id="my_modal_8" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box">
+    <div class="mx-auto"><img src="./images/fruit8.png"></div>
+    <h2 class="text-2xl font-bold text-center">Dragon</h2>
+    <p class="py-4 text-center">Buy fresh,authentic fruits and become healthy</p>
+    <!--rating-->
+    <div class="rating ">
+      <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked />
+      <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+    </div>
+    <div class="flex gap-4">
+    <div class="modal-action ">
+      <label for="my_modal_8" class="btn bg-red-300 hover:bg-red-600">Close!</label>
+    </div>
+    <div class="modal-action">
+      <label for="my_modal_8" class="btn btn bg-red-300 hover:bg-red-600">Buy Now</label>
+    </div>
+    </div>
+  </div>
+</div>
+<!--for modal 4-->
+<input type="checkbox" id="my_modal_9" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box">
+    <div class="mx-auto"><img src="./images/fruit9.png"></div>
+    <h2 class="text-2xl font-bold text-center">banana</h2>
+    <p class="py-4 text-center">Buy fresh,authentic fruits and become healthy</p>
+    <!--rating-->
+    <div class="rating">
+      <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked />
+      <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+      <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+    </div>
+    <div class="flex gap-4">
+    <div class="modal-action ">
+      <label for="my_modal_9" class="btn bg-red-300 hover:bg-red-600">Close!</label>
+    </div>
+    <div class="modal-action">
+      <label for="my_modal_9" class="btn btn bg-red-300 hover:bg-red-600">Buy Now</label>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+
 <body>
     <!--navbar section-->
     
@@ -151,7 +256,7 @@
       <!--cards-->
       <div class="grid my-10 md:grid-cols-2 lg:grid-cols-4 gap-5 "><!--parent div-->
       <div class="card  bg-base-100 shadow-xl">
-        <figure class="px-10 pt-10">
+        <figure class="px-auto pt-10">
           <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
         </figure>
         <div class="card-body items-center text-center">
@@ -159,20 +264,20 @@
           <p>Apples</p>
           <div class="card-actions">
             <button class="btn btn-ghost"><div class="rating rating-lg rating-half">
-                <input type="radio" name="rating-10" class="rating-hidden" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" checked />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-4" class="rating-hidden" />
+                <input type="radio" name="rating-4" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-4" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-4" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                <input type="radio" name="rating-4" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-4" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-4" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-4" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-4" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-4" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-4" class="bg-orange-400 mask mask-star-2 mask-half-2" />
               </div></button>
           </div>
-          <p class="text-sm text-red-400">Details</p>
+          <label for="my_modal_6"class="btn text-sm text-red-400">Details</label>
         </div>
       </div>
       <div class="card  bg-base-100 shadow-xl">
@@ -184,20 +289,20 @@
           <p>Orange</p>
           <div class="card-actions">
             <button class="btn btn-ghost"><div class="rating rating-lg rating-half">
-                <input type="radio" name="rating-10" class="rating-hidden" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" checked />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-1" class="rating-hidden" />
+                <input type="radio" name="rating-1" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-1" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-1" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-1" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-1" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                <input type="radio" name="rating-1" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-1" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-1" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-1" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-1" class="bg-orange-400 mask mask-star-2 mask-half-2" />
               </div></button>
           </div>
-          <p class="text-sm text-red-400">Details</p>
+          <label for="my_modal_7"class="btn text-sm text-red-400">Details</label>
         </div>
       </div>
       <div class="card  bg-base-100 shadow-xl">
@@ -209,20 +314,20 @@
           <p>Dragons</p>
           <div class="card-actions">
             <button class="btn btn-ghost"><div class="rating rating-lg rating-half">
-                <input type="radio" name="rating-10" class="rating-hidden" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" checked />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-2" class="rating-hidden" />
+                <input type="radio" name="rating-2" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-2" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-2" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                <input type="radio" name="rating-2" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-2" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-2" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-2" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-2" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-2" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-2" class="bg-orange-300 mask mask-star-2 mask-half-2" />
               </div></button>
           </div>
-          <p class="text-sm text-red-400">Details</p>
+          <label for="my_modal_8"class="btn text-sm text-red-400">Details</label>
         </div>
       </div>
       <div class="card  bg-base-100 shadow-xl">
@@ -234,21 +339,21 @@
           <p>Banana</p>
           <div class="card-actions">
             <button class="btn btn-ghost "><div class="rating rating-lg rating-half w-auto">
-                <input type="radio" name="rating-10" class="rating-hidden" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" checked />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-indigo-500 mask mask-star-2 mask-half-2"/>
+                <input type="radio" name="rating-3" class="rating-hidden" />
+                <input type="radio" name="rating-3" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-3" class="bg-orange-400 mask mask-star-2 mask-half-2" checked />
+                <input type="radio" name="rating-3" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-3" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-3" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-3" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-3" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-3" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-3" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-3" class="bg-orange-400 mask mask-star-2 mask-half-2"/>
             </div></button>
             
         </div>
-        <p class="text-sm text-red-400">Details</p>
+        <label for="my_modal_9"class="btn text-sm text-red-400">Details</label>
     </div>
 </div>
 </div>
@@ -258,7 +363,7 @@
     </section>  `
     <!--meet the team-->
     <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-3 my-10 ">
-        <div class="hero min-h-[calc(100vh-240px)]" style="background-image: url(./images/banner1.png);">
+        <div class="hero min-h-[calc(100vh-240px)] bg-cover" style="background-image: url(./images/banner1.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="max-w-md">
