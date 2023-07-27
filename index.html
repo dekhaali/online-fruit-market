@@ -140,7 +140,7 @@
     <!--navbar section-->
     <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-5 py-5 mb-10 rounded-full" >
     <nav class="my-5">
-      <div class="navbar bg-[#F85559] md:bg-[#F85559] lg:bg-[#F85559] md:rounded-full lg:rounded-full">
+      <div class="navbar bg-white md:bg-[#F85559] lg:bg-[#F85559] md:rounded-full lg:rounded-full">
           <div class="navbar-start">
            
             <ul class="lg:flex gap-4 text-lg font-medium lg:text-white text-black px-4 hidden md:hidden cursor-pointer">
@@ -149,7 +149,7 @@
               <li><a>Shop</a></li>
               <li><a>All Fruits</a></li>
             </ul>
-            <div class="lg:hidden flex items-center gap-2 pl-4">
+            <div class="lg:hidden flex items-center gap-2 pl-0">
               <img src="./images/logo.png" alt="">
               <h3 class="md:text-white lg:text-white text-[#121212] text-xl lg:text-[40px] font-bold cursor-pointer">Fruit Burst</h3>
             </div>
@@ -168,6 +168,12 @@
                     <li><a>About Us</a></li>
                     <li><a>Shop</a></li>
                     <li><a>All Fruits</a></li>
+                    <div class="relative">
+                      <input type="text" placeholder="search here" class="input input-bordered w-[170px]   rounded-full  md:hidden lg:hidden " />
+                      <li class="absolute left-56 bottom-[10px] hidden  cursor-pointer   md:hidden lg:hidden">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </li>
+                    </div>
                   </ul>
                 </div>
 
@@ -332,6 +338,7 @@
         <div class="card-body items-center text-center">
           <h2 class="card-title mb-5">12.90$ - 18.85$</h2>
           <p>Apples</p>
+          <hr class="w-[130px] border-1 mx-auto lg:ml-15" />
           <div class="card-actions">
             <button class="btn btn-ghost"><div class="rating rating-lg rating-half">
                 <input type="radio" name="rating-4" class="rating-hidden" />
@@ -357,6 +364,7 @@
         <div class="card-body items-center text-center">
           <h2 class="card-title mb-5">12.90$ - 18.85$</h2>
           <p>Orange</p>
+          <hr class="w-[130px] border-1 mx-auto lg:ml-15" />
           <div class="card-actions">
             <button class="btn btn-ghost"><div class="rating rating-lg rating-half">
                 <input type="radio" name="rating-1" class="rating-hidden" />
@@ -382,6 +390,7 @@
         <div class="card-body items-center text-center">
           <h2 class="card-title mb-5">12.90$ - 18.85$</h2>
           <p>Dragons</p>
+          <hr class="w-[130px] border-1 mx-auto lg:ml-15" />
           <div class="card-actions">
             <button class="btn btn-ghost"><div class="rating rating-lg rating-half">
                 <input type="radio" name="rating-2" class="rating-hidden" />
@@ -407,6 +416,7 @@
         <div class="card-body items-center text-center">
           <h2 class="card-title mb-5">12.90$ - 18.85$</h2>
           <p>Banana</p>
+          <hr class="w-[130px] border-1 mx-auto lg:ml-15" />
           <div class="card-actions">
             <button class="btn btn-ghost "><div class="rating rating-lg rating-half w-auto">
                 <input type="radio" name="rating-3" class="rating-hidden" />
